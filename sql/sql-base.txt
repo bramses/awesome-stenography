@@ -1,0 +1,9 @@
+// from: https://www.sqlshack.com/sql-examples-for-beginners-sql-select-statement-usage/
+
+SELECT Fruit_Name FROM Fruits
+
+SELECT ID,Fruit_Name ,Fruit_Color FROM Fruits
+
+SELECT * FROM Fruits WHERE Fruit_Color='Red'
+
+SELECT * FROM Fruits WHERE Fruit_Name LIKE 'L%'

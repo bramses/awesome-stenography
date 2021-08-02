@@ -48,7 +48,7 @@ AFRAME.registerComponent('pinchable', {
           console.log('pinchend');
         } else {
           console.log('pinch begin');
-  }
+        }
       });
     }  
 })
